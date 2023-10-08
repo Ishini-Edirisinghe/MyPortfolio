@@ -466,8 +466,9 @@ main > section:nth-child(2)#about_section {
 
 main > section:nth-child(2)#about_section > section:first-child {
     position: relative;
-    height: 78px;
+    height: 150px;
     /*background: yellow;*/
+    top: 70px;
 }
 
 main > section:nth-child(2)#about_section > section:first-child > h1 {
@@ -5072,7 +5073,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     }
 
     main > section:first-child > section:first-child > #home_description > button {
-        top: 20px;
+        top: 3px;
     }
 
     main > #about_section > section:nth-child(2) section > p {
