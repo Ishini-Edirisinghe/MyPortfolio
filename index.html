@@ -2,245 +2,844 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-
-    <meta name="keywords" content="html,css,java,portfolio,software,engineering,ishini,edirisinghe">
-    <meta name="description" content="Ishini Edirisinghe - Portfolio">
+    <title>My-Portfolio</title>
+    <link rel="icon" href="mask.png">
+    <!--    <base href="localhost">-->
+    <meta name="keywords" content="IJSE,GDSE,GDSE 60,Html,Web">
+    <meta name="description" content="IJSE,GDSE,GDSE 60,Html,Web">
+    <!--    <meta http-equiv="refresh" content="2">-->
     <meta name="author" content="Ishini Edirisinghe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/assets/style.css">
+    <meta name="owner" content="Ishini Edirisinghe">
+    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=3 minimum-scale=1 user-scalable=no">
+    <meta name="theme-color" content="blue">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/assignment_sec.css">
+    <link rel="stylesheet" href="assets/css/contact_me_sec.css">
 
 </head>
-<body>
 
-<header class="header">
-    <a href="#" class="logo">Portfolio<span class="cyan">.</span></a>
-    <!--    <img src="assets/favicon.ico" title="my" alt="my" width="100">-->
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="#About">About</a>
-        <a href="assignments.html">Assignment</a>
-        <a href="projects.html">Projects</a>
-        <a href="services.html">Services</a>
-        <a href="#contact">Contact</a>
+<body>
+<!--
+<div id="loader">
+    <div>
+        <img src="assets/images/Spin-1s-200px.gif" alt="Loader image">
+    </div>
+</div>-->
+
+<div id="extra-div" style="width: 100%; height: 800px; position:absolute;"></div>
+
+<header>
+    <div>
+        <h2>Ishini Edirisinghe</h2>
+    </div>
+    <nav>
+        <menu>
+            <li><a href="#home_section">Home</a></li>
+            <li><a href="#about_header">About</a></li>
+            <li><a href="#education_header">Education</a></li>
+            <li><a href="#skills_header">Skills</a></li>
+            <li><a href="#project_header">Projects</a></li>
+            <li><a href="#assignment_header">Assignments</a></li>
+            <li><a href="#contact_header">Contact</a></li>
+        </menu>
     </nav>
+
+    <button id="btn-burger">
+        <i id="burger" class="fa-solid fa-bars"></i>
+    </button>
 </header>
 
-<main id="home">
-    <section>
-    <div class="home-content">
-        <h3>Hello, It's Me <div></div></h3>
-        <h1>Ishini Edirisinghe</h1>
-        <h3>And I'm a <span id="role">Full-Stack Developer</span></h3>
-        <p>Enthusiastic student mastering front-end & back-end web development, fusing responsive <br>
-            design with strong UI/UX expertise. Committed to open-source contribution<span class="cyan">.</span></p>
+<a href="#" id="scroll_up_btn"><i class="fa-solid fa-arrow-up"></i></a>
 
-        <div class="social-media">
-            <a href="https://github.com/Ishini-Edirisinghe"  target="_blank" class="git"><i class='bx bxl-github'></i></a>
-            <a href="https://codepen.io/mkrishan" target="_blank" class="codePen"><i class='bx bxl-codepen'></i></a>
-            <a href="https://instagram.com/d_e_k_u_m_z?igshid=MjEwN2IyYWYwYw==" target="_blank" class="instagram"><i class='bx bxl-instagram' ></i></a>
-            <a href="https://www.linkedin.com/in/ishini-edirisinghe-003a20260/" target="_blank" class="linkedIn"><i class='bx bxl-linkedin' ></i></a>
-        </div>
-        <div class="btn">
-            <a href="Assets/downloads/test.txt" download>Download CV</a>
-        </div>
+<main>
+    <!-- Home -->
+    <section id="home_section">
 
-    </div>
 
-    <div id="home-image-wrapper">
-       <!-- <div id="home-image-cyan-circle">
-        </div>-->
-        <div class="home-image">
+        <section>
+
+            <section id="home_description">
+                <h1><b>Hi, I'm Ishini </b></h1>
+                <h1><b>Edirisinghe</b></h1>
+
+                <h3><b>Full Stack Developer</b></h3>
+                <p>Experience in developing Front end
+                    and the Back end of web development</p>
+
+                <button type="button" id="btn_Hire_Me">Hire Me</button>
+            </section>
+        </section>
+
+        <section>
+            <!--My Photo-->
+            <div>
+                <!-- <img src="assets/images/My_Image.png" alt="My Photo" width="350" height="350">-->
+            </div>
+        </section>
+    </section>
+    <!-- Home -->
+
+
+    <!-- About -->
+    <section id="about_section">
+        <!--About Me text-->
+
+        <section id="about_header">
+            <h1>About</h1>
+            <h5>About Me</h5>
+        </section>
+
+        <section>
+            <article>
+                <!--My Photo-->
+                <div>
+                    <!--                    <img src="assets/images/My_Image.png" alt="My Photo" width="350" height="350">-->
+                </div>
+
+                <section>
+                    <!-- My Details -->
+                    <h2>Hello There, I'm Ishini</h2>
+                    <p>A software engineering student at Institute of Software Engineering.
+                        I'm currently taking a Graduate Diploma in Software Engineering at <abbr
+                                title="Institute of Software Engineering">IJSE</abbr>.</p>
+
+                    <p>Eager to improve and learn new and necessary skills and highly motivated
+                        to do my best for the sake of helping myself and the company advance
+                        in the software engineering industry.</p>
+
+                    <div>
+                        <div>
+                            <p><i class="fa-solid fa-angle-right"></i> <strong>Name:</strong>
+                                <span>Ishini Udara Edirisinghe</span>
+                            </p>
+                            <p><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>21 years old</span>
+                            </p>
+                            <p><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong>
+                                <span>31 March 2002</span></p>
+                            <p><i class="fa-solid fa-angle-right"></i> <strong>Mobile:</strong>
+                                <span>+94 713826494</span></p>
+                        </div>
+
+                        <div>
+                            <p><i class="fa-solid fa-angle-right"></i> <strong>Location:</strong>
+                                <span>Matara, SriLanka</span>
+                            </p>
+                            <p><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong>
+                                <span>ishiniedirisinghe331@gmail.com</span></p>
+
+                        </div>
+                    </div>
+
+                    <button>Download CV
+                        <a href="#">
+                            <!--<div><img src="assets/images/Download.png" alt="download image" width="20" height="20">
+                            </div>-->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </button>
+                </section>
+            </article>
+        </section>
+    </section>
+    <!-- About -->
+
+    <!--////////////////////////////////////////////////////////////-->
+    <!--////////////////////////Skills set section create//////////////////////////////////-->
+        <section id="education_section">
+
+
+
+            <section class="educationskills" id="education_header">
+                <h2 data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom" class="heading">My <span>Journey</span></h2>
+
+                <div class="education-row">
+
+                    <div class="education-colomn">
+                        <h4 data-aos="zoom-in-up" class="title"> Education</h4>
+
+                        <div class="education-box">
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2008 -2017 </div>
+                                    <h5> GCE Ordinary Level - Sujatha Vidyalaya-Matara</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                                        praesentium quas quo sapiente voluptate.</p>
+                                </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2018 -2021 </div>
+                                    <h5> GCE Advanced Level - Sujatha Vidyalaya-Matara</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                                        praesentium quas quo sapiente voluptate.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2022 -2024 </div>
+                                    <h5> Graduate Diploma in Software Engineering - IJSE</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                                        praesentium quas quo sapiente voluptate.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="education-colomn">
+                        <h4 data-aos="zoom-in-up" class="title"> Skills</h4>
+
+                        <div class="education-box">
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <h5>HTML <span>95%</span></h5>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <h5>CSS <span>90%</span></h5>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <h5>JAVA <span>80%</span></h5>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <h5>JavaScript <span>75%</span></h5>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+
+                            <div class="education-content">
+                                <div class="contentedu">
+                                    <h5>MySQL <span>95%</span></h5>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+        </section>
+
+
+    <!--////////////////////////////////////////////////////////////-->
+
+
+
+
+
+
+
+
+
 <!--
-            <img src="/assets/images/mypic.png" width="500" alt="Hero Image">
+
+     Education
+    <section id="education_section">
+        <section id="education_header">
+            <h1>Education</h1>
+            <h5><samp>My Education & Experience</samp></h5>
+        </section>
+
+        Education and Work navigation links
+        <section>
+                       <div id="btnEducation"><i class="fa-regular fa-graduation-cap"></i> Education</div>
+            <div id="btnEducation">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Education
+            </div>
+            <div id="btnWork">
+                <i class="fa-solid fa-briefcase"></i>
+                Work
+            </div>
+        </section>
+
+        Education and work Details
+        <section>
+             <div>
+                 <h4>Higher Education</h4>
+                 <p>Institute of Software Engineering</p>
+                 <p><i class="fa-solid fa-calendar"></i> 2021-Present</p>
+             </div>
+             <div>
+                 &lt;!&ndash;<img src="assets/images/Education_section_option_chart.png" alt="Option Chart">&ndash;&gt;
+             </div>
+             <div>
+                 <h4>Secondary Education</h4>
+                 <p>Mahinda College</p>
+                 <p><i class="fa-solid fa-calendar"></i> 2012-2020</p>
+             </div>
+             <div>
+                 <h4>Primary Education</h4>
+                 <p>St.Aloysius' College</p>
+                 <p><i class="fa-solid fa-calendar"></i> 2007-2011</p>
+             </div>
+
+            <div>
+                <img src="assets/images/EducationSvg.svg" alt="">
+            </div>
+
+        </section>
+    </section>
+     Education
 -->
-        </div>
-    </div>
+
+    <!-- Skills -->
+    <section id="skills_section">
+        <section id="skills_header">
+           <!-- <h1>Skills</h1>
+            <h5><samp>My Skills</samp></h5>-->
+        </section>
+<!--
+
+        <section>
+            &lt;!&ndash;Languages&ndash;&gt;
+            <h2>Languages</h2>
+            &lt;!&ndash;            <div><i class="fa-solid fa-circle-chevron-left"></i></div>&ndash;&gt;
+            <section>
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-left"></i></button>
+                </div>
+                <div>
+                    <img src="assets/images/Python.png" alt="Python Image">
+                    <h5>Python</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Html.png" alt="Html Image">
+                    <h5>Html</h5>
+                </div>
+
+                <div id="center_language_div">
+                    <img src="assets/images/Java.png" alt="Java Image">
+                    <h5><b>Java</b></h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/JavaScript.png" alt="JavaScript Image">
+                    <h5>JavaScript</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/MYSQL.png" alt="MYSQL Image">
+                    <h5>MYSQL</h5>
+                </div>
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </section>
+            &lt;!&ndash;            <div><i class="fa-solid fa-circle-chevron-right"></i></div>&ndash;&gt;
+        </section>
+-->
+
+        <section>
+            <!--Tools-->
+            <h2>Tools</h2>
+            <!--            <div><i class="fa-solid fa-circle-chevron-left"></i></div>-->
+            <section>
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-left"></i></button>
+                </div>
+
+                <div>
+                    <img src="assets/images/GitHub.png" alt="GitHub Image">
+                    <h5>GitHub</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Intelij_Idea.png" alt="IntelliJ IDEA Image">
+                    <h5>IntelliJ IDEA</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Figma.png" alt="Figma Image">
+                    <h5><b>Figma</b></h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Angular.png" alt="Angular Image">
+                    <h5>Angular</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Photoshop.png" alt="Photoshop Image">
+                    <h5>Photoshop</h5>
+                </div>
+
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </section>
+            <!--            <div><i class="fa-solid fa-circle-chevron-right"></i></div>-->
+        </section>
+    </section>
+    <!-- Skills -->
+
+    <!-- Projects -->
+    <section id="projects_section">
+        <section id="project_header">
+            <h1>Projects</h1>
+            <h5><samp>My Projects And Assignments</samp></h5>
+            <h2>Recently contributed projects I've Done</h2>
+        </section>
+
+        <!-- Projects section -->
+        <section>
+            <section id="projects-container">
+                <div>
+                    <h2>POS System</h2>
+                    <div id="firstSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">1 st semester final project.
+                            POS System for Grand Highway
+                            Restaurant using Java FX and JDBC</p>
+
+                        <button id="btnPOSProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Pos_System_Project_SS.jpeg" alt="POS System">
+                </div>
+
+                <div>
+                    <h2>Hostel Management System</h2>
+                    <div id="secondSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">Hostel Management System for manage student registration and fee payment
+                            process using Hibernate Framework</p>
+
+                        <button id="btnHostelProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Hostel_System_SS.jpeg" alt="Hostel Management System">
+                </div>
+                <div>
+                    <h2>POS System</h2>
+                    <div id="firstSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">1 st semester final project.
+                            POS System for Grand Highway
+                            Restaurant using Java FX and JDBC</p>
+
+                        <button id="btnPOSProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Pos_System_Project_SS.jpeg" alt="POS System">
+                </div>
+
+                <div>
+                    <h2>Hostel Management System</h2>
+                    <div id="secondSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">Hostel Management System for manage student registration and fee payment
+                            process using Hibernate Framework</p>
+
+                        <button id="btnHostelProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Hostel_System_SS.jpeg" alt="Hostel Management System">
+                </div>
+
+                <div>
+                    <h2>Hotel Reservation System</h2>
+                    <div id="thirdSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">Hotel Reservation System for manage rooms, customer reservations and
+                            System reports using Java FX</p>
+
+                        <button id="btnHotelReservationProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Hotel_Reservation_Project_SS.jpeg" alt="Hotel Reservation System">
+                </div> <div>
+                    <h2>Hotel Reservation System</h2>
+                    <div id="thirdSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">Hotel Reservation System for manage rooms, customer reservations and
+                            System reports using Java FX</p>
+
+                        <button id="btnHotelReservationProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Hotel_Reservation_Project_SS.jpeg" alt="Hotel Reservation System">
+                </div>
+
+            </section>
+
+        </section>
 
     </section>
-</main>
+    <!-- Projects -->
 
+    <!-- Assignments -->
+    <!--    assignment section-->
 
+    <h1 id="my_assignment">Assignments</h1>
+    <section class="page-content" id="#assignment_header">
 
-
-
-
-
-<br>
-<hr>
-<!--////////////////////////about section create//////////////////////////////////-->
-<main>
-   <!-- <section>
-        <h3 id="About">_ABOUT ME_</h3>
-        <p>I’m Ishini Edirisinghe from Matara Sri Lanka.I have passed G.C.E.(O/L) & GCE(A/L) in Sujatha Vidyalaya Matara.<br>
-            I’m Software Developer and UI & UX Designer based in Sri Lanka.I’m following a software engineering Diploma in IJSE institute in Panadura.<br>
-            I hope to be agraduate in software engineering at the end of the diploma.
-            I also do UI UX design, logo design, business card design, graphic design and photo editing.</p>
-
-        <br>
-
-    </section>-->
-
-
-    <section class="about" id="About">
-        <h2 data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom" class="heading">About <span>Me</span></h2>
-
-        <div class="about-img">
-            <img src="/assets/images/mi-3.jpg" alt="" >
-            <span class="circle-spin"></span>
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 01</h2>
+                <p class="copy">Absolute Position</p>
+                <a class="btn"
+                   href="assignment/CSS01 - Absolute Position/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 02</h2>
+                <p class="copy">Fixed Circles</p>
+                <a class="btn"
+                   href="assignment/CSS02 - Fixed Circles/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 03</h2>
+                <p class="copy">Sticky Cards</p>
+                <a class="btn"
+                   href="assignment/CSS03 - Sticky Cards/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 04</h2>
+                <p class="copy">Responsive Web Site Sample</p>
+                <a class="btn"
+                   href="assignment/CSS04 - Responsive Web Site Sample/index.html"
+                   target="_blank">View</a>
+            </div>
         </div>
 
-        <div class="about-content">
-            <h2><span class="first-text">Hello,</span><span class="sec-text">I'm Ishni...</span></h2>
-            <p>I wish to design and develop software according to daily updating new technologies.
-                Therefore my vision is to provide high quality service to my clients in the future.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae cum dolores in iure,
-                laudantium maiores necessitatibus obcaecati possimus qui.</p>
+
+        <!--    -=======================================-->
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 05</h2>
+                <p class="copy">Grid Layout</p>
+                <a class="btn"
+                   href="assignment/CSS05 - Grid Layout/index.html"
+                   target="_blank">View</a>
+            </div>
         </div>
 
-        <button data-aos="zoom-out-up" class="button">Download CV</button>
-        <script src="assests/jQuery/jquery-3.6.4.min.js"></script>
-        <script>
-            const button = document.querySelector(".button");
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 06</h2>
+                <p class="copy">Water Drop</p>
+                <a class="btn"
+                   href="assignment/CSS06 - Water Drop/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
 
-            button.addEventListener("click", (e) => {
-                e.preventDefault;
-                button.classList.add("animate");
-                setTimeout(() => {
-                    button.classList.remove("animate");
-                }, 600);
-            });
-        </script>
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 07</h2>
+                <p class="copy">Image Slide Show</p>
+                <a class="btn"
+                   href="assignment/CSS07 - image Slide Show/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 08</h2>
+                <p class="copy">Car Animation</p>
+                <a class="btn"
+                   href="assignment/CSS08 - Car Animation/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 09</h2>
+                <p class="copy">Circle Transmission</p>
+                <a class="btn"
+                   href="assignment/CSS09 - Circle Transition/index.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 10</h2>
+                <p class="copy">Calculator</p>
+                <a class="btn"
+                   href="assignment/CSS10-Calculator/assignment_10.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 11</h2>
+                <p class="copy">Knight Rider</p>
+                <a class="btn"
+                   href="assignment/CSS11 - Knight Rider/assignment_9_with_jQuery.html"
+                   target="_blank">View</a>
+            </div>
+        </div>
+
+        <div class="assignment_card" data-aos="fade-up"
+             data-aos-duration="2000">
+            <div class="content">
+                <h2 class="title">Assignment 12</h2>
+                <p class="copy">Animation</p>
+                <a class="btn"
+                   href="assignment/CSS12 - Animation/index.html"
+                   target="_blank">View</a>
+                <!--            </View></button>-->
+            </div>
+        </div>
 
     </section>
 
-</main>
 
-<!--////////////////////////Gallery section create//////////////////////////////////-->
-<main>
-    <section>
-        <h3 id="gallery">Gallery</h3>
-        <hr>
-        <img src="./assets/images/image.png" alt="image" width="100" height="100">
-        <img src="./assets/images/image.png" alt="image" width="100" height="100">
-        <img src="./assets/images/image.png" alt="image" width="100" height="100">
-        <br>
-        <img src="./assets/images/image.png" alt="image" width="100" height="100">
-        <img src="./assets/images/image.png" alt="image" width="100" height="100">
-        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+    <!--    ===================================        Assignment     =============================================================-->
+
+    <!-- Assignments -->
+  <!--   Assignments
+    <section id="assignments_section">
+        <section id="assignment_header">
+            <h1>Assignments</h1>
+            <h5><samp>My Projects And Assignments</samp></h5>
+            <h2>Recently contributed assignments I've Done</h2>
+        </section>
+
+        <section>
+            <section id="assignments-container">
+                <div>
+                    <h2>Assignment 01</h2>
+                    <div class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="assignments_p">JS Simple Calculator assignment</p>
+
+                        <button id="btnAssignment-01" class="assignments_btn">
+                            View Assignment
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="pages/assets/img/gif9.gif" alt="Assignment 01">
+                </div>
+
+                <div>
+                    <h2>Assignment 02</h2>
+                    <div class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="assignments_p">JS Simple 2D Game Zombie Shooter</p>
+
+                        <button id="btnAssignment-02" class="assignments_btn">
+                            View Assignment
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Game.gif" alt="Assignment 02">
+                </div>
+
+                <div>
+                    <h2>Assignment 03</h2>
+                    <div class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="assignments_p">CSS Moving Car Animation assignment</p>
+
+                        <button id="btnAssignment-03" class="assignments_btn">
+                            View Assignment
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Car_animation.gif" alt="Assignment 03">
+                </div>
+            </section>
+            <button id="btnAssignmentsViewMore">
+                View More
+                <a></a>
+            </button>
+        </section>
     </section>
-</main>
+     Assignments
+-->
 
-<!--////////////////////////Skills set section create//////////////////////////////////-->
-<main>
-    <section>
-        <h3>Skills Set</h3>
-        <hr>
-        <div>
-            <img src="./assets/images/java-img.png" alt="java image" width="100" >
-            <img src="./assets/images/mysql-img.png" alt="mysql image" width="100" >
-            <img src="./assets/images/html-img.png" alt="html image" width="100" >
-            <img src="./assets/images/css-img.png" alt="css image" width="100" >
-            <img src="./assets/images/javascript-img.png" alt="javascript image" width="100" >
-            <br>
-            <img src="./assets/images/gitim.png" alt="git image" width="100" >
-            <img src="./assets/images/github.png" alt="github image" width="100" >
-            <img src="./assets/images/figma-img.png" alt="figma image" width="100" >
-            <img src="./assets/images/intellij-idea-img.png" alt="intellij image" width="100" >
+
+    <!-- Contact -->
+    <hr>
+    <br>
+    <!--    contact me-->
+    <section id="#contact_header">
+
+        <div class="section_head" id="contactMe-id" style="padding-top: 0">Contact Me</div>
+
+        <div id="contact_main_div">
+
+            <div id="contact_first_div">
+
+                <p class="p-contact">Feel free to get in touch with me.
+                    I am always open to discussing new projects,
+                    creative ideas or opportunities to be part of your vision.
+                    <img alt="" class="emoji"
+                         src="https://raw.githubusercontent.com/twitter/twemoji/gh-pages/36x36/1f609.png"/>
+                </p>
+
+                <br>
+                <h3>Contact Info</h3>
+                <br>
+                <p id="contact_info_p">
+                    <i class="fa fa-user"></i>
+                    &nbsp;&nbsp; <span
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.1337510981917!2d79.93652331839829!3d6.709118472162058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae248913b6ffddd%3A0x73b2e88c4294184f!2sMahavila%2C%20Panadura!5e0!3m2!1sen!2slk!4v1687585119948!5m2!1sen!2slk">Ishini Edirisinghe</span><br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;ishiniedirisinghe331@gmail.com<br>
+                    <i class="fa fa-phone"></i>&nbsp;&nbsp;+94713826494<br>
+                    <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Dangahawatta,Talalla,Gandara</p>
+
+                <!--            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.1337510981917!2d79.93652331839829!3d6.709118472162058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae248913b6ffddd%3A0x73b2e88c4294184f!2sMahavila%2C%20Panadura!5e0!3m2!1sen!2slk!4v1687585119948!5m2!1sen!2slk"-->
+                <!--                    style="border:0;"-->
+                <!--                    allowfullscreen="" loading="lazy"-->
+                <!--                    referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+
+            </div>
+            <div id="contact_second_div">
+
+                <form class="nice-form">
+                    <br>
+
+                    <!--                    <fieldset>-->
+                    <div class="input-group">
+                        <input id="name" name="such" placeholder="Name" type="text"/>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <input id="email" name="many" placeholder="Email" type="text"/>
+                    </div>
+                    <br>
+                    <div class="input-group" data-group-name="very">
+                        <input id="contact_no" name="very" placeholder="Contact No" type="text"/>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <textarea id="msg" name="txt" placeholder="Enter Message Here"></textarea>
+                    </div>
+                    <br>
+                    <div class="btn_input-group">
+                        <button id="submit_btn" onclick="sendMail()">Submit</button>
+                    </div>
+                    <br>
+                    <br>
+                    <!--                    </fieldset>-->
+                </form>
+
+            </div>
+
+
         </div>
-    </section>
-</main>
-
-<!--////////////////////////education section create//////////////////////////////////-->
-<main>
-    <section>
-        <h3>Education</h3>
-        <hr>
-        <br>
-       <center><h4>My Qualification</h4>
-        <p>I am currently a student at the Institute of Java Software Engineering (IJSE), where I am pursuing my studies in Software Engineering. </p>
-        <div>
-            <img src="./assets/images/gdse.png" alt="GDSE image" width="100" >
-            <h4>GDip in Software Engineering</h4>
-            <h5>Institute of Software Engineering (IJSE)</h5>
-            <h6>2022-09 onwards</h6>
-        </div>
-
-        <br>
-        <div>
-            <img src="./assets/images/nationallogo.png" alt="GDSE image" width="100" >
-            <h4>GCE Advanced Level - 2018</h4>
-            <h5>Sujatha Vidyalaya Matara</h5>
-        </div>
-        <div>
-            <img src="./assets/images/nationallogo.png" alt="GDSE image" width="100" >
-            <h4>GCE Ordinary Level - 2014</h4>
-            <h5>Sujatha Vidyalaya Matara</h5>
-        </div>
-       </center>
-    </section>
-</main>
 
 
-
-<!--////////////////////////contact section create//////////////////////////////////-->
-
-<main>
-
-    <section>
-        <h2 id="contact">Send a message</h2>
-        <form action="mailto:dilshandekumpitiya@gmail.com" method="post" target="_blank">
-            <!--action="mailto:dilshandekumpitiya@gmail.com" to get email-->
-            <!--target ==> _blank ==> get new tab-->
-            <!--target ==> _self ==> load In tab-->
-            <label for="first_name">First Name</label><br>
-            <input type="text" id="first_name" name="first_name" placeholder="name here"> <br> <br>
-
-            <label for="last_name">Last Name</label><br>
-            <input type="text" id="last_name" name="last_name" placeholder="name here"> <br> <br>
-
-            <label for="mobile">Mobile Number</label><br>
-            <input type="tel" placeholder="+94xxxxxx" id="mobile" name="mobile"> <br> <br>
-
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" placeholder="enter your email"> <br> <br>
-
-            <label for="message">Message</label> <br> <br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="enter message here..."></textarea> <br> <br>
-
-            <button type="submit">Submit</button>
-
-            <br><br>
-        </form>
-
-        <div>
-            <a href="https://www.linkedin.com/in/ishini-edirisinghe-003a20260/" target="_blank">
-                <img alt="linkedin" src="./assets/images/linkin.png" width="30" height="30">
-            </a>
-            <a href="https://instagram.com/d_e_k_u_m_z?igshid=MjEwN2IyYWYwYw==" target="_blank">
-                <img alt="instagram" src="./assets/images/instagram.png" width="30" height="30">
-            </a>
-            <a href="https://github.com/Ishini-Edirisinghe" target="_blank">
-                <img alt="github" src="./assets/images/github.png" width="30" height="30">
-            </a>
-            <a href="mailto:ishiniedirisinghe331@gmail.com" target="_blank">
-                <img alt="gmail" src="./assets/images/mail.png" width="30" height="30">
-            </a>
-        </div>
     </section>
 
-
+    <!-- Contact -->
 </main>
 
 <footer>
-    <hr>
-    <center>
-        <img src="./assets/images/copyright.png" alt="copyright" width="20" height="20">
-        Ishini Edirisinghe
-    </center>
+    <!--Social media links-->
+    <nav>
+        <menu>
+
+            <li><a href="" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a></li>
+
+            <li><a href=" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li><a href="" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a></li>
+        </menu>
+    </nav>
+
+
+    <div>
+        <i class="fa-regular fa-copyright"></i>
+        <small>Copyright 2022 Ishini Edirisinghe. All Rights Reserved.</small>
+    </div>
 </footer>
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
+
 </html>
