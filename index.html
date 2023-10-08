@@ -3,13 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <meta name="keywords" content="html,css,java,portfolio,software,engineering,ishini,edirisinghe">
+    <meta name="description" content="Ishini Edirisinghe - Portfolio">
+    <meta name="author" content="Ishini Edirisinghe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/style.css">
+
 </head>
 <body>
-    <h1>Ishini Edirisinghe</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque commodi facilis inventore laborum! Facilis,
-        incidunt, recusandae. Consectetur cupiditate impedit laudantium minus numquam obcaecati, quasi quo rerum sequi velit
-        voluptatibus.
-    </p>
+<header class="header">
+    <a href="#" class="logo">Portfolio<span class="cyan">.</span></a>
+    <!--    <img src="assets/favicon.ico" title="my" alt="my" width="100">-->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#About">About</a>
+        <a href="assignments.html">Assignment</a>
+        <a href="projects.html">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main id="home">
+    <section>
+    <div class="home-content">
+        <h3>Hello, It's Me <div></div></h3>
+        <h1>Ishini Edirisinghe</h1>
+        <h3>And I'm a <span id="role">Full-Stack Developer</span></h3>
+        <p>Enthusiastic student mastering front-end & back-end web development, fusing responsive <br>
+            design with strong UI/UX expertise. Committed to open-source contribution<span class="cyan">.</span></p>
+
+        <div class="social-media">
+            <a href="https://github.com/Ishini-Edirisinghe"  target="_blank" class="git"><i class='bx bxl-github'></i></a>
+            <a href="https://codepen.io/mkrishan" target="_blank" class="codePen"><i class='bx bxl-codepen'></i></a>
+            <a href="https://instagram.com/d_e_k_u_m_z?igshid=MjEwN2IyYWYwYw==" target="_blank" class="instagram"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/ishini-edirisinghe-003a20260/" target="_blank" class="linkedIn"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <div class="btn">
+            <a href="Assets/downloads/test.txt" download>Download CV</a>
+        </div>
+
+    </div>
+
+    <div id="home-image-wrapper">
+       <!-- <div id="home-image-cyan-circle">
+        </div>-->
+        <div class="home-image">
+<!--
+            <img src="/assets/images/mypic.png" width="500" alt="Hero Image">
+-->
+        </div>
+    </div>
+
+    </section>
+</main>
+
+
+
+
+
+
+
+<br>
+<hr>
+<!--////////////////////////about section create//////////////////////////////////-->
+<main>
+   <!-- <section>
+        <h3 id="About">_ABOUT ME_</h3>
+        <p>I’m Ishini Edirisinghe from Matara Sri Lanka.I have passed G.C.E.(O/L) & GCE(A/L) in Sujatha Vidyalaya Matara.<br>
+            I’m Software Developer and UI & UX Designer based in Sri Lanka.I’m following a software engineering Diploma in IJSE institute in Panadura.<br>
+            I hope to be agraduate in software engineering at the end of the diploma.
+            I also do UI UX design, logo design, business card design, graphic design and photo editing.</p>
+
+        <br>
+
+    </section>-->
+
+
+    <section class="about" id="About">
+        <h2 data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="/assets/images/mi-3.jpg" alt="" >
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h2><span class="first-text">Hello,</span><span class="sec-text">I'm Ishni...</span></h2>
+            <p>I wish to design and develop software according to daily updating new technologies.
+                Therefore my vision is to provide high quality service to my clients in the future.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae cum dolores in iure,
+                laudantium maiores necessitatibus obcaecati possimus qui.</p>
+        </div>
+
+        <button data-aos="zoom-out-up" class="button">Download CV</button>
+        <script src="assests/jQuery/jquery-3.6.4.min.js"></script>
+        <script>
+            const button = document.querySelector(".button");
+
+            button.addEventListener("click", (e) => {
+                e.preventDefault;
+                button.classList.add("animate");
+                setTimeout(() => {
+                    button.classList.remove("animate");
+                }, 600);
+            });
+        </script>
+
+    </section>
+
+</main>
+
+<!--////////////////////////Gallery section create//////////////////////////////////-->
+<main>
+    <section>
+        <h3 id="gallery">Gallery</h3>
+        <hr>
+        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+        <br>
+        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+        <img src="./assets/images/image.png" alt="image" width="100" height="100">
+    </section>
+</main>
+
+<!--////////////////////////Skills set section create//////////////////////////////////-->
+<main>
+    <section>
+        <h3>Skills Set</h3>
+        <hr>
+        <div>
+            <img src="./assets/images/java-img.png" alt="java image" width="100" >
+            <img src="./assets/images/mysql-img.png" alt="mysql image" width="100" >
+            <img src="./assets/images/html-img.png" alt="html image" width="100" >
+            <img src="./assets/images/css-img.png" alt="css image" width="100" >
+            <img src="./assets/images/javascript-img.png" alt="javascript image" width="100" >
+            <br>
+            <img src="./assets/images/gitim.png" alt="git image" width="100" >
+            <img src="./assets/images/github.png" alt="github image" width="100" >
+            <img src="./assets/images/figma-img.png" alt="figma image" width="100" >
+            <img src="./assets/images/intellij-idea-img.png" alt="intellij image" width="100" >
+        </div>
+    </section>
+</main>
+
+<!--////////////////////////education section create//////////////////////////////////-->
+<main>
+    <section>
+        <h3>Education</h3>
+        <hr>
+        <br>
+       <center><h4>My Qualification</h4>
+        <p>I am currently a student at the Institute of Java Software Engineering (IJSE), where I am pursuing my studies in Software Engineering. </p>
+        <div>
+            <img src="./assets/images/gdse.png" alt="GDSE image" width="100" >
+            <h4>GDip in Software Engineering</h4>
+            <h5>Institute of Software Engineering (IJSE)</h5>
+            <h6>2022-09 onwards</h6>
+        </div>
+
+        <br>
+        <div>
+            <img src="./assets/images/nationallogo.png" alt="GDSE image" width="100" >
+            <h4>GCE Advanced Level - 2018</h4>
+            <h5>Sujatha Vidyalaya Matara</h5>
+        </div>
+        <div>
+            <img src="./assets/images/nationallogo.png" alt="GDSE image" width="100" >
+            <h4>GCE Ordinary Level - 2014</h4>
+            <h5>Sujatha Vidyalaya Matara</h5>
+        </div>
+       </center>
+    </section>
+</main>
+
+
+
+<!--////////////////////////contact section create//////////////////////////////////-->
+
+<main>
+
+    <section>
+        <h2 id="contact">Send a message</h2>
+        <form action="mailto:dilshandekumpitiya@gmail.com" method="post" target="_blank">
+            <!--action="mailto:dilshandekumpitiya@gmail.com" to get email-->
+            <!--target ==> _blank ==> get new tab-->
+            <!--target ==> _self ==> load In tab-->
+            <label for="first_name">First Name</label><br>
+            <input type="text" id="first_name" name="first_name" placeholder="name here"> <br> <br>
+
+            <label for="last_name">Last Name</label><br>
+            <input type="text" id="last_name" name="last_name" placeholder="name here"> <br> <br>
+
+            <label for="mobile">Mobile Number</label><br>
+            <input type="tel" placeholder="+94xxxxxx" id="mobile" name="mobile"> <br> <br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="enter your email"> <br> <br>
+
+            <label for="message">Message</label> <br> <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="enter message here..."></textarea> <br> <br>
+
+            <button type="submit">Submit</button>
+
+            <br><br>
+        </form>
+
+        <div>
+            <a href="https://www.linkedin.com/in/ishini-edirisinghe-003a20260/" target="_blank">
+                <img alt="linkedin" src="./assets/images/linkin.png" width="30" height="30">
+            </a>
+            <a href="https://instagram.com/d_e_k_u_m_z?igshid=MjEwN2IyYWYwYw==" target="_blank">
+                <img alt="instagram" src="./assets/images/instagram.png" width="30" height="30">
+            </a>
+            <a href="https://github.com/Ishini-Edirisinghe" target="_blank">
+                <img alt="github" src="./assets/images/github.png" width="30" height="30">
+            </a>
+            <a href="mailto:ishiniedirisinghe331@gmail.com" target="_blank">
+                <img alt="gmail" src="./assets/images/mail.png" width="30" height="30">
+            </a>
+        </div>
+    </section>
+
+
+</main>
+
+<footer>
+    <hr>
+    <center>
+        <img src="./assets/images/copyright.png" alt="copyright" width="20" height="20">
+        Ishini Edirisinghe
+    </center>
+</footer>
 </body>
 </html>
