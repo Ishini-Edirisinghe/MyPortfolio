@@ -246,6 +246,7 @@
     }
 
     #name, #email, #contact_no,#msg{
-        width: 100%;
+        width: 75%;
+        margin-left: 40px;
     }
 }
