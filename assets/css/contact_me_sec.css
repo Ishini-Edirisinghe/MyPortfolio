@@ -1,3 +1,4 @@
+/*
 
 #contact_main_div{
     display: flex;
@@ -25,7 +26,7 @@
 }
 
 .p-contact{
-    color: #FFA800;
+    color:darkslateblue;
     opacity: 60%;
 }
 
@@ -37,21 +38,21 @@
     margin-left: 50px;
 }
 
-/*input, textarea{*/
-/*    background-color: #4f5050;*/
-/*    color: white;*/
-/*}*/
+!*input, textarea{*!
+!*    background-color: #4f5050;*!
+!*    color: white;*!
+!*}*!
 
 #contact_info_p{
     line-height: 30px;
 }
 
 
-/*=====================================================================================*/
+!*=====================================================================================*!
 
-/*body {*/
-/*    background: #262626;*/
-/*}*/
+!*body {*!
+!*    background: #262626;*!
+!*}*!
 .demopadding {
     display: flex;
     flex-direction: column;
@@ -64,10 +65,10 @@
     width: 0;
     height: 0;
     padding: 20px;
-    /*border-top-right-radius: 20px;*/
-    /*border-top-left-radius: 20px;*/
-    /*border-bottom-right-radius: 20px;*/
-    /*border-bottom-left-radius: 20px;*/
+    !*border-top-right-radius: 20px;*!
+    !*border-top-left-radius: 20px;*!
+    !*border-bottom-right-radius: 20px;*!
+    !*border-bottom-left-radius: 20px;*!
     -moz-border-radius: 20px 20px 20px 20px;
     -webkit-border-radius: 20px 20px 20px 20px;
     color: darkslateblue;
@@ -118,7 +119,7 @@
 #name, #email, #contact_no,#msg{
     background-color: #4f5050;
     color: white;
-    /*height: 30px;*/
+    !*height: 30px;*!
     width: 100%;
     border-radius: 6px;
     border: 1px solid grey;
@@ -136,18 +137,18 @@
     width: 100%;
     padding-right: 50px;
     padding-left: 50px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
+    !*display: flex;*!
+    !*flex-direction: column;*!
+    !*align-items: center;*!
+    !*justify-content: center;*!
 }
 
-/*===================================== submit button  ===========================================*/
+!*===================================== submit button  ===========================================*!
 
 #submit_btn {
     background-color: #2c3034;
     width: 100px;
-    /*padding: 10px;*/
+    !*padding: 10px;*!
     color: #fff;
     border: 1px solid grey;
     font-size: 15px;
@@ -196,13 +197,13 @@
         margin: 0;
     }
     #contact_second_div{
-        /*!*width: 30%;*!*/
-        /*padding-left: 10%;*/
-        /*padding-right: 10%;*/
+        !*!*width: 30%;*!*!
+        !*padding-left: 10%;*!
+        !*padding-right: 10%;*!
     }
 
     #contact_third_div{
-        /*width: 70%;*/
+        !*width: 70%;*!
         display: flex;
         justify-content: center;
         align-items: center;
@@ -224,10 +225,10 @@
 
 }
 
-/*.input-group:hover{*/
-/*    border: 1px solid goldenrod;*/
-/*    border-radius: 6px;*/
-/*}*/
+!*.input-group:hover{*!
+!*    border: 1px solid goldenrod;*!
+!*    border-radius: 6px;*!
+!*}*!
 
 
 @media all and (max-width: 720px) {
@@ -249,4 +250,4 @@
         width: 75%;
         margin-left: 40px;
     }
-}
+}*/

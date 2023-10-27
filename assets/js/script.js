@@ -55,3 +55,6 @@ $('#btnAssignment-03').on('click', function () {
     $("#btnAssignment-03>a").attr("target", "_blank");
     $("#btnAssignment-03>a").attr("href", "assignments/css/Animations/case_04/index.html");
 });
+
+/*
+---------------------------------*/
