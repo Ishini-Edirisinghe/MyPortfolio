@@ -15,24 +15,44 @@ function sendMail() {
 }
 
 /* ------------------------ Projects Section -------------------- */
-$("#btnProjectsViewMore").on("click", function () {
-    $("#btnProjectsViewMore>a").attr("target", "_blank");
-    $("#btnProjectsViewMore>a").attr("href", "pages/projects.html");
+
+// $('#btnPreProject').on('click', function () {
+//     $("#btnPreProject>a").attr("target", "_blank");
+//     $("#btnPreProject>a").attr("href", "https://github.com/Ishini-Edirisinghe/little-sunshine-preschool");
+// });
+
+// $('#btnPreProject1').on('click', function () {
+//     $("#btnPreProject1>a").attr("target", "_blank");
+//     $("#btnPreProject1>a").attr("href", "https://github.com/Ishini-Edirisinghe/little-sunshine-preschool");
+// });
+
+/*
+$('#btnSchoolProject').on('click', function () {
+    $("#btnSchoolProject>a").attr("target", "_blank");
+    $("#btnSchoolProject>a").attr("href", "https://github.com/Ishini-Edirisinghe/little-sunshine-preschool");
 });
+
+$('#btnHostelProject').on('click', function () {
+    $("#btnHostelProject1>a").attr("target", "_blank");
+    $("#btnHostelProject1>a").attr("href", "https://github.com/Ishini-Edirisinghe/Hostel-Management-System-Using-Hibernate");
+});
+*/
+
+/* ------------------------ Projects Section -------------------- */
 
 $('#btnPOSProject').on('click', function () {
     $("#btnPOSProject>a").attr("target", "_blank");
-    $("#btnPOSProject>a").attr("href", "");
+    $("#btnPOSProject>a").attr("href", "https://github.com/Ishini-Edirisinghe/POS-System-UIs");
 });
 
 $('#btnHostelProject').on('click', function () {
     $("#btnHostelProject>a").attr("target", "_blank");
-    $("#btnHostelProject>a").attr("href", "");
+    $("#btnHostelProject>a").attr("href", "https://github.com/Ishini-Edirisinghe/Hostel-Management-System-Using-Hibernate");
 });
 
 $('#btnHotelReservationProject').on('click', function () {
     $("#btnHotelReservationProject>a").attr("target", "_blank");
-    $("#btnHotelReservationProject>a").attr("href", "");
+    $("#btnHotelReservationProject>a").attr("href", "https://github.com/Ishini-Edirisinghe/little-sunshine-preschool");
 });
 
 /* ------------------------ Assignments Section -------------------- */
